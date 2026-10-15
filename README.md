@@ -41,20 +41,6 @@ How can the business allocate marketing spend and fix funnel leakage to grow rev
 
 ---
 
-## Data Pipeline and Methodology
-
-| Step | Stage | Focus |
-|:---:|:---|:---|
-| 1 | Core Aggregation (Q1 - Q9) | Orders and revenue by period, traffic source, device and product; NULL source handling; conversion by `utm_source` |
-| 2 | Profitability and Trends (Q10 - Q15) | Above-average products, monthly gross margin, refund rates, running revenue, yearly product rank, month-over-month growth |
-| 3 | Customer and Data Quality (Q16 - Q18) | Cohort repeat-purchase rates, top landing pages per source, duplicate detection on `order_items` |
-| 4 | Funnel and Attribution (Q19 - Q22) | Landing page to purchase funnel, customer lifetime value by acquisition channel, segment-level conversion and revenue per session, repeat-session revenue share |
-| 5 | Validation and Visualization | Headline figures reproduced independently in Python; charts generated with `matplotlib` |
-
-**Dataset Note:** E-commerce data (7 tables): 472,871 sessions, 1,188,124 pageviews, 32,313 orders, 40,025 order items, 1,731 refunds. Covers 19 March 2012 to 19 March 2015. Raw CSVs are not committed because of file size.
-
----
-
 ## Key Findings
 
 | # | Finding | Evidence |
@@ -68,6 +54,20 @@ How can the business allocate marketing spend and fix funnel leakage to grow rev
 | 7 | **Reliance on repeat customers is rising** | Repeat-session share of revenue grew from **12.4% (2012) to 22.2% (2015 YTD)**. Repeat sessions convert better (7.8% vs 6.6%), yet only 1.9% of customers ever place a second order. |
 
 Additional context: gross margin improved from 61.0% in 2012 to 63.4% in 2015 (62.7% overall), and the duplicate check on `order_items` returned zero duplicate rows.
+
+---
+
+## Data Pipeline and Methodology
+
+| Step | Stage | Focus |
+|:---:|:---|:---|
+| 1 | Core Aggregation (Q1 - Q9) | Orders and revenue by period, traffic source, device and product; NULL source handling; conversion by `utm_source` |
+| 2 | Profitability and Trends (Q10 - Q15) | Above-average products, monthly gross margin, refund rates, running revenue, yearly product rank, month-over-month growth |
+| 3 | Customer and Data Quality (Q16 - Q18) | Cohort repeat-purchase rates, top landing pages per source, duplicate detection on `order_items` |
+| 4 | Funnel and Attribution (Q19 - Q22) | Landing page to purchase funnel, customer lifetime value by acquisition channel, segment-level conversion and revenue per session, repeat-session revenue share |
+| 5 | Validation and Visualization | Headline figures reproduced independently in Python; charts generated with `matplotlib` |
+
+**Dataset Note:** E-commerce data (7 tables): 472,871 sessions, 1,188,124 pageviews, 32,313 orders, 40,025 order items, 1,731 refunds. Covers 19 March 2012 to 19 March 2015. Raw CSVs are not committed because of file size.
 
 ---
 
