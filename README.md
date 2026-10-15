@@ -35,9 +35,24 @@ How can the business allocate marketing spend and fix funnel leakage to grow rev
 
 | Layer | Tools |
 |:---|:---|
-| Database and Querying | Microsoft SQL Server (T-SQL) |
+| Database and Querying | Microsoft SQL Server|
 | SQL Techniques | CTEs, window functions (`LAG`, `DENSE_RANK`, `ROW_NUMBER`, running totals), correlated subqueries, conditional aggregation, cohort analysis |
 | Validation and Charts | Python (`pandas`, `matplotlib`) |
+
+---
+
+## Dataset
+
+The dataset consists of six related tables plus a data dictionary, provided as CSV files.
+
+| Table | Rows | Description |
+|---|---|---|
+| `website_sessions` | 472,871 | One row per session, with traffic source, campaign, device type, and repeat-session flag |
+| `website_pageviews` | 1,188,124 | One row per pageview, with the page URL |
+| `orders` | 32,313 | One row per order, with items purchased, price, and cost of goods |
+| `order_items` | 40,025 | One row per product line item within an order |
+| `order_item_refunds` | 1,731 | One row per refunded item, with refund amount |
+| `products` | 4 | Product catalog |
 
 ---
 
