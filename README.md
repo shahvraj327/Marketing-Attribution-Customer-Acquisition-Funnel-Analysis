@@ -1,4 +1,4 @@
-# Marketing Attribution and Customer Acquisition Funnel Analysis
+# Marketing Attribution and & Funnel Analysis
 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-T--SQL-1F3A5F?style=for-the-badge)
 ![Analysis](https://img.shields.io/badge/Focus-Marketing%20Attribution-2A9D8F?style=for-the-badge)
