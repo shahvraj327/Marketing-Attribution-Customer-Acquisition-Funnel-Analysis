@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-An online toy retailer was growing quickly but had no clear view of which traffic sources, devices and landing pages actually produced revenue. This project uses 22 SQL queries over 472,871 sessions and 32,313 orders to attribute revenue to channels, map the checkout funnel, and measure customer lifetime value by acquisition source.
+An online toy retailer was growing quickly but had no clear view of which traffic sources, devices and landing pages actually produced revenue. This project uses SQL queries over 472,871 sessions and 32,313 orders to attribute revenue to channels, map the checkout funnel, and measure customer lifetime value by acquisition source.
 
 **Core Impact:** Identified a **3.0x conversion gap** between the best and worst landing pages (10.2% vs 3.4%) and a **2.6x revenue-per-session gap** between desktop and mobile traffic, isolating the highest-return levers across **$1.94M** in total revenue.
 
