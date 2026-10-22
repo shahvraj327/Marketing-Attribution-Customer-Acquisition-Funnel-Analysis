@@ -1,8 +1,8 @@
 # Marketing Attribution & Funnel Analysis
 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-T--SQL-1F3A5F?style=for-the-badge)
-  ![Analysis](https://img.shields.io/badge/Focus-Marketing%20Attribution-2A9D8F?style=for-the-badge)
-  ![Domain](https://img.shields.io/badge/Domain-E--commerce-C8553D?style=for-the-badge)
+![Analysis](https://img.shields.io/badge/Focus-Marketing%20Attribution-2A9D8F?style=for-the-badge)
+![Domain](https://img.shields.io/badge/Domain-E--commerce-C8553D?style=for-the-badge)
 
 ---
 
